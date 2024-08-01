@@ -2634,7 +2634,7 @@ def selecionar_frase(categoria):
     return random.choice(frases.get(categoria, ["Categoria não encontrada."]))
 def jogo_digitacao():
     print('''===========================================
-===========JOGO DA DITILOGRAFIA============
+===========JOGO DA DATILOGRAFIA============
 ===========================================''')
     nome = input('Digite seu nome, jogador:').capitalize().strip()
     pontuacao = 0
